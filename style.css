@@ -135,18 +135,7 @@ img {
   background: 00000000;
   border: 1px solid rgb(56, 56, 233);
   outline: none;
-}
-
-.src2 {
-  width: 100px;
-  height: 25px;
-  margin-left: -6px;
-  text-align: center;
-  cursor: pointer;
-  background: 00000000;
-  border: 1px solid rgb(56, 56, 233);
-  padding: 15px 0px 15px 0px;
-  outline: none;
+  color: white;
 }
 
 .srcbox2 {
@@ -155,15 +144,14 @@ img {
 }
 
 .srcbtn {
-  width: 50px;
-  height: 25px;
   text-align: center;
   cursor: pointer;
   margin-left: -6px;
-  background: 00000000;
+  background: #00000000;
   border: 1px solid rgb(56, 56, 233);
-  padding: 15px 0px 15px 0px;
+  padding: 8px 10px;
   outline: none;
+  color: white;
 }
 
 .mnue {
