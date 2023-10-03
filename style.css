@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(29, 28, 28);
+  color: white;
+  height: 100vh;
+}
+
+.hed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  /* background: red; */
+  cursor: pointer;
+}
+
+.logo .logodiv {
+  width: 50px;
+  height: 50px;
+  background: rgb(34, 34, 238);
+  border-radius: 50%;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.acn {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  /* background: red; */
+  height: 50px;
+  border: 1px solid #00000000;
+  border-radius: 33px;
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+.acn:hover {
+  border: 1px solid rgb(34, 34, 238);
+}
+
+.acn .acndiv {
+  width: 50px;
+  height: 50px;
+  background: rgb(24, 199, 97);
+  border-radius: 50%;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.sen {
+  text-align: center;
+  /* background: red; */
+}
+
+.btnbox {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+  /* background: pink; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 280px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn1 {
+  background: rgb(39, 126, 226);
+  border: none;
+}
+
+.btn2 {
+  background: rgb(150, 148, 61);
+  border: none;
+}
+
+.btn3 {
+  background: 00000000;
+  color: rgb(214, 193, 193);
+  border: none;
+}
+
+.btn3:hover {
+  border: 1px solid rgb(61, 61, 179);
+  color: rgb(61, 61, 179);
+}
+
+.btn4 {
+  background: 00000000;
+  color: rgb(214, 193, 193);
+  border: none;
+}
+
+.btn4:hover {
+  border: 1px solid rgb(61, 61, 179);
+  color: rgb(61, 61, 179);
+}
+
+.srcbox {
+  display: flex;
+  margin: 18px 100px 20px 100px;
+}
+
+.srcbox1 {
+  flex: 6;
+  /* background: red; */
+}
+
+.src1 {
+  width: 800px;
+  height: 25px;
+  padding: 15px 0px 15px 15px;
+  cursor: pointer;
+  background: 00000000;
+  border: 1px solid rgb(56, 56, 233);
+  outline: none;
+}
+
+.src2 {
+  width: 100px;
+  height: 25px;
+  margin-left: -6px;
+  text-align: center;
+  cursor: pointer;
+  background: 00000000;
+  border: 1px solid rgb(56, 56, 233);
+  padding: 15px 0px 15px 0px;
+  outline: none;
+}
+
+.srcbox2 {
+  flex: 1;
+  /* background: rgb(51, 15, 209); */
+}
+
+.srcbtn {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: -6px;
+  background: 00000000;
+  border: 1px solid rgb(56, 56, 233);
+  padding: 15px 0px 15px 0px;
+  outline: none;
+}
+
+.mnue {
+  /* background: red; */
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid rgb(37, 37, 212);
+  margin-left: 10px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  color: rgb(201, 188, 166);
+}
+
+.group {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.mainroombox {
+  width: 350px;
+  height: 250px;
+  background: rgb(94, 97, 91);
+  margin-left: 80px;
+}
+
+.room1 {
+  display: flex;
+  /* background: pink; */
+}
+
+.lbl {
+  flex: 9;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.akound {
+  width: 35px;
+  height: 35px;
+  background: rgb(223, 167, 94);
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.akoundbox {
+  margin-left: 10px;
+}
+
+.lang {
+  display: flex;
+}
+
+h5 {
+  font-size: 12px;
+  font-style: italic;
+  color: rgb(161, 145, 145);
+  margin-left: 9px;
+  margin-top: 3px;
+}
+
+p {
+  font-size: 13px;
+  font-style: initial;
+  color: rgb(87, 189, 129);
+}
+
+.stn {
+  flex: 1;
+}
+
+.setting {
+  width: 25px;
+  height: 25px;
+  /* background: palegoldenrod; */
+  border-radius: 50%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.room2 {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 30px;
+  /* background: red; */
+}
+
+.room {
+  border-radius: 50%;
+  background: rgb(74, 12, 218);
+  margin: 5px 8px 5px 8px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.a {
+  width: 40px;
+  height: 40px;
+}
+
+.style {
+  background: #00000000;
+  border: 1px dashed rgb(209, 204, 204);
+  cursor: no-drop;
+}
+
+.b {
+  width: 55px;
+  height: 55px;
+}
+
+.c {
+  width: 80px;
+  height: 80px;
+}
+
+.join {
+  width: 170px;
+  height: 30px;
+  background: #00000000;
+  color: blue;
+  border: 1px dashed rgb(202, 198, 198);
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+.join:hover {
+  border: 1px dashed blue;
+}
+
+#full {
+  border: 1px dashed rgb(202, 198, 198);
+  color: rgb(202, 198, 198);
+}
+
+#full:hover {
+  border: 1px dashed rgb(240, 70, 70);
+  color: rgb(243, 52, 52);
+}
+
+.footer {
+  /* background: rgb(116, 114, 114); */
+  margin: 0px 80px;
+  height: 200px;
+}
+
+.footer-head {
+  text-align: center;
+}
+
+h2 {
+  padding: 40px 0px;
+  /* background: red; */
+}
+
+#para {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(214, 203, 203);
+}
